@@ -1,5 +1,97 @@
-.Welcome__background {
-        background-image: url(../../Assets/welcome\ -\ background.jpg);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+/* nav section */
+.nav-bar {
+	top:0px;
+	z-index:1001;
+	background-color:#fff;
+	height:40px;
+    text-align:right;
+    margin-left: 20px;
+
+}
+.nav-bar i {
+	margin-right:7px;
+	margin-top:7px;
+}
+.nav {
+	top:38px;
+	z-index:1000;
+	background-color:#ccc;
+	transition: 0.3s;
+	height:0px;
+	overflow:hidden;
+  display:block;
+}
+.nav a {
+	display:block;
+	border-bottom:1px solid #eee;
+	margin-left:0px;
+	margin-top:7px;
+	padding:5px;
+}
+.nav a:hover {
+	background-color:#c00;
+}
+.nav ul {
+	margin:0px;
+	padding:0px;
+}
+
+
+.Header__classes {
+    font-size: 28px;
+    margin-left: 50px;
+}
+
+.Nav__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa-caret-up:before {
+    font-size: 58px;
+    margin-left: 40px;
+}
+
+/* Main section Home start */
+.Main__section {
+    margin-top: 20px;
+    background-image: url(../../api/assets/1583694115775lower-abs1.jpg);
+    background-size: cover;
+    height: 350px;
+    border-radius: 20px;
+}
+
+/* .LowerAb__background {
+    background-image: url(../../api/assets/1583694115775lower-abs1.jpg);
+    background-color: gray;
+} */
+
+.LowerAb__Title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.LowerAb__Span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.h2__for-you {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px; 
+}
+
+
+
+
+
+
+
+.Welcome__background1 {
+        background-image: url("../../Assets/welcome\ -\ background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 300px;   
@@ -7,10 +99,10 @@
 
 
 .Welcome__title {
-    background-image: url(../../Assets/welcome\ -\ background.jpg);
+ /*    background-image: url(../../Assets/welcome\ -\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 300px; */
 
 }
 
