@@ -1,0 +1,35 @@
+.Welcome__background {
+        background-image: url(../../Assets/welcome\ -\ background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;   
+}
+
+
+.Welcome__title {
+    background-image: url(../../Assets/welcome\ -\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+
+.h1__blieve {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span__yourself {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.button {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 250px;
+    background-color: white;
+    
+}
