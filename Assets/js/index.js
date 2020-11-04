@@ -1,3 +1,6 @@
+document.addEventListener('DOMContentLoaded', () => {
+
+
 (function(){
 
     var menuOpen=false;
@@ -28,4 +31,14 @@
     menu.onclick=toggleMenu;
     
     })();
-    
+
+
+    fetch("http://localhost:4000/api/v1/trainers", {
+        method: "get",
+      })
+
+        .then(res => res.json())
+        .then(data => console.log(data) )
+       
+})
+
