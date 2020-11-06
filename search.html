@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#4285f4">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
     <title>Document</title>
 </head>
   <link rel="stylesheet" href="./Assets/css/index.css">
@@ -10,80 +14,48 @@
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
-    <section class="Nav__section">
+  <main>
+    <article class="search">
+        <section class="search__top">
+            <h1 class="search__title">search</h1>
+        <form autocomplete="off" class="search__container"> 
+            <i class="fas fa-search search__icon"></i>
+            <input type="search" name="search" id="search" class="search__input"
+            placeholder="Search classes">
+            <p class="searc__message"></p>
+        </form>
+        </section>
+        <section class="search__middle">
+            <h2 class="search__subtitle">popular classes</h2>
+            <div class="search__middle-container">
+            </div>
+           
+        </section>
+        <section class="search__btm">
+            <h2 class="search__subtitle">popular trainers</h2>
+            <div class="search__trainer-container">
 
-        <i class="fas fa-caret-up"></i> <span class="Header__classes">Popular Classes</span> 
-        
-    <div class="nav-bar"><a href="#menu" id="hamburger"><i class="fa fa-bars fa-2x"></i></a></div>
+            </div>
+        </section>
+    </article>
+</main>
+<template class="search__template">
+        <div class="search__middle-classes">
+            <div>
 
-	<nav class="nav" id="nav">
-	    <ul>
-	    	<li><a class="nav-item" href="./home.html">Home</a></li>
-	        <li><a class="nav-item" href="#search.html">Search</a></li>
-	        <li><a class="nav-item" href="#item2">My Schedule</a></li>
-	        <li><a class="nav-item" href="#item3">Log in</a></li>
-	    </ul>
-    </nav>
-    <div class="search-box">
-        <input class="search-txt" type="text" name="" placeholder="Type to Search">
-        <a href="#" class="search-btn">
-          <i class="fas fa-search"></i>
-        </a>
-      </div>
-</section>
-
-<section>
-
-    <h1 class="classes__title">Popular classes</h1>
-
-    <div class="gallery js-flickity">
-        <div class="gallery-cell"><img class="classes4" src="./api/assets/1583694089577spinning1.jpg" alt=""> <br>
-            <span>Daily Go Pro</span>
-            <div class="col1"></div><span class="col2"></span>
+                <img class="search__image" src="" alt="">
+            </div>
+            <h3 class="search__middle-title">Daily go pro</h3>
         </div>
-        
-        <div class="gallery-cell"><img class="classes4" src="./api/assets/1583694089577spinning1.jpg" alt=""> <br>
-            <span>Yoga Master</span>
+</template>
+<template class="trainers__template">
+    <div class="search__trainer">
+        <div>
+            <img class="search__image-small" src="" alt="">
         </div>
-    
-        <div class="gallery-cell"><img class="classes4" src="./api/assets/1583694089577spinning1.jpg" alt=""> <br>
-            <span>Bend Kick Training</span>
-        </div>
-        <div class="gallery-cell"><img class="classes4" src="./api/assets/1583694089577spinning1.jpg" alt=""> <br>
-            <span>Daily Go Pro</span>
-        </div>
-      </div>
-  </section>
-
-  <section class="pop__trainers">
-    <h1 class="trainers__title">Popular Trainers</h1>
-
-    <div class="trainer__gallery">
-    <div class="Gallery-box">
-    <img class="trainer__img" src="./api/assets/1583694100547michael.jpg" alt=""><span class="name__span">Michael</span>
+        <p class="search__name">davina jones</p>
     </div> 
-
-    <div class="Gallery-box">
-        <img class="trainer__img" src="./api/assets/1583694100547michael.jpg" alt=""><span class="name__span">Michael</span>
-        </div> 
-
-        <div class="Gallery-box">
-            <img class="trainer__img" src="./api/assets/1583694100547michael.jpg" alt=""><span class="name__span">Michael</span>
-            </div> 
-
-
-            <div class="Gallery-box">
-                <img class="trainer__img" src="./api/assets/1583694100547michael.jpg" alt=""><span class="name__span">Michael</span>
-                </div> 
-      
-
-        
-
-
-
-    </div>
-
-  </section>
+</template>
 
 
 

@@ -2,7 +2,7 @@
         "name": "Fitness",
         "short_name": "PWA",
         "icons": [{
-            "src":"/assets/images/icon.png",
+            "src":"/icon.png",
             "type": "image/png",
             "sizes":"512x512",
             "purpose": "any maskable"
